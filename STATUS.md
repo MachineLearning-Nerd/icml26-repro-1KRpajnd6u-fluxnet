@@ -6,8 +6,8 @@
 - arXiv: `2602.01941`
 - Author source: `Lan-zs/FluxNet` at
   `ec0cafe3bb48cb7f2497723c5e12c6ebc518442c`
-- Status: CPU claim audit complete; GitHub and Trackio publication in progress;
-  Hugging Face Space publication will remain queued until the account quota is
+- Status: CPU claim audit and public GitHub/Trackio publication complete;
+  Hugging Face Space publication is queued until the account quota is
   available.
 
 ## Evidence
