@@ -1,0 +1,19 @@
+{
+  "space_id": null,
+  "emoji": "🎯",
+  "created_at": "2026-07-17T07:34:46+00:00",
+  "last_page": "conclusion",
+  "title": "FluxNet: feasible transport guarantees",
+  "paper": {
+    "arxiv_id": "2602.01941",
+    "openreview_id": "1KRpajnd6u"
+  },
+  "tags": [
+    "icml2026-repro",
+    "paper-1KRpajnd6u"
+  ],
+  "autosync": false,
+  "private": false,
+  "local_dashboards": {},
+  "local_path_artifacts": []
+}

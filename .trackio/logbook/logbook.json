@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "title": "FluxNet: feasible transport guarantees",
+  "emoji": "🎯",
+  "space_id": null,
+  "paper": {
+    "arxiv_id": "2602.01941",
+    "openreview_id": "1KRpajnd6u"
+  },
+  "tags": [
+    "icml2026-repro",
+    "paper-1KRpajnd6u"
+  ],
+  "updated_at": "2026-07-17T07:35:15+00:00",
+  "root": {
+    "slug": "index",
+    "title": "FluxNet: feasible transport guarantees",
+    "file": "pages/index.md",
+    "children": [
+      {
+        "slug": "claims",
+        "title": "Claims",
+        "file": "pages/claims/page.md",
+        "children": []
+      },
+      {
+        "slug": "method",
+        "title": "Method",
+        "file": "pages/method/page.md",
+        "children": []
+      },
+      {
+        "slug": "evidence",
+        "title": "Evidence",
+        "file": "pages/evidence/page.md",
+        "children": []
+      },
+      {
+        "slug": "conclusion",
+        "title": "Conclusion",
+        "file": "pages/conclusion/page.md",
+        "children": []
+      }
+    ]
+  },
+  "agent_view_tokens": 688,
+  "revision": "1784273715069011013"
+}
