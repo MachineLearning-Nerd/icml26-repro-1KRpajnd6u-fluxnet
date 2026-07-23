@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "title": "FluxNet: feasible transport guarantees",
+  "title": "Reproduction: FluxNet transport guarantees and traffic rollouts",
   "emoji": "🎯",
-  "space_id": null,
+  "space_id": "DineshAI/1KRpajnd6u",
   "paper": {
     "arxiv_id": "2602.01941",
     "openreview_id": "1KRpajnd6u"
@@ -11,28 +11,34 @@
     "icml2026-repro",
     "paper-1KRpajnd6u"
   ],
-  "updated_at": "2026-07-17T07:35:15+00:00",
+  "updated_at": "2026-07-19T16:16:00+00:00",
   "root": {
     "slug": "index",
-    "title": "FluxNet: feasible transport guarantees",
+    "title": "Reproduction: FluxNet transport guarantees and traffic rollouts",
     "file": "pages/index.md",
     "children": [
       {
-        "slug": "claims",
-        "title": "Claims",
-        "file": "pages/claims/page.md",
+        "slug": "executive-summary",
+        "title": "Executive summary",
+        "file": "pages/executive-summary/page.md",
         "children": []
       },
       {
-        "slug": "method",
-        "title": "Method",
-        "file": "pages/method/page.md",
+        "slug": "claim-1-conservation",
+        "title": "Claim 1 — Conservation",
+        "file": "pages/claim-1-conservation/page.md",
         "children": []
       },
       {
-        "slug": "evidence",
-        "title": "Evidence",
-        "file": "pages/evidence/page.md",
+        "slug": "claim-2-structural-bounds",
+        "title": "Claim 2 — Structural bounds",
+        "file": "pages/claim-2-structural-bounds/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-3-empirical-rollouts",
+        "title": "Claim 3 — Empirical rollouts",
+        "file": "pages/claim-3-empirical-rollouts/page.md",
         "children": []
       },
       {
@@ -43,6 +49,6 @@
       }
     ]
   },
-  "agent_view_tokens": 688,
-  "revision": "1784273715069011013"
+  "agent_view_tokens": 2180,
+  "revision": "1784477760000000000"
 }

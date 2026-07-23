@@ -2,3 +2,13 @@
 official/
 __pycache__/
 .pytest_cache/
+data/shallow_water_attempt2/
+outputs/shallow_water_attempt2/
+data/spinodal_attempt2b/
+outputs/spinodal_attempt2b/
+outputs/
+vendor/
+wandb/
+.DS_Store
+*.pyc
+upstream/

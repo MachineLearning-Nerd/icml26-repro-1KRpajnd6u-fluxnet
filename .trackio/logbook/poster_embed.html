@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FluxNet reproduction audit</title>
+<style>
+  :root { color-scheme: dark; --ink:#f4f6fb; --muted:#aeb8ca; --panel:#151c2d; --line:#2b3650; --cyan:#63d8ff; --green:#7ee787; --amber:#f2cc60; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:linear-gradient(145deg,#08101f,#111a2d 58%,#08101f); color:var(--ink); font:16px/1.45 ui-sans-serif,system-ui,sans-serif; }
+  main { max-width:1100px; margin:auto; padding:42px; }
+  .eyebrow { color:var(--cyan); font-weight:750; letter-spacing:.12em; text-transform:uppercase; }
+  h1 { margin:.3rem 0 .5rem; max-width:850px; font-size:clamp(2.1rem,5vw,4.2rem); line-height:1.02; }
+  .lead { color:var(--muted); max-width:800px; font-size:1.18rem; }
+  .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin:34px 0; }
+  .card { background:linear-gradient(180deg,#172139,#111827); border:1px solid var(--line); border-radius:18px; padding:23px; box-shadow:0 18px 40px #0005; }
+  .claim { color:var(--muted); font-size:.85rem; text-transform:uppercase; letter-spacing:.08em; }
+  .status { margin:.35rem 0; font-size:1.55rem; font-weight:800; color:var(--green); }
+  .toy { color:var(--amber); }
+  .metric { display:flex; align-items:end; gap:16px; margin:26px 0 10px; }
+  .metric b { color:var(--cyan); font-size:3rem; line-height:1; }
+  .metric span { color:var(--muted); }
+  .bar { height:16px; background:#2c3550; border-radius:999px; overflow:hidden; }
+  .bar i { display:block; width:22.22%; height:100%; background:linear-gradient(90deg,var(--cyan),var(--green)); }
+  .foot { display:grid; grid-template-columns:2fr 1fr; gap:18px; }
+  code { color:#d7e6ff; }
+  @media(max-width:760px){ main{padding:24px}.grid,.foot{grid-template-columns:1fr} }
+</style>
+</head>
+<body><main>
+  <div class="eyebrow">ICML 2026 reproduction · independent audit</div>
+  <h1>FluxNet: exact structure, real traffic rollouts</h1>
+  <p class="lead">Clean-room algebra and pinned author-core checks preserve the two verified structural claims. A full released periodic-traffic run adds bounded empirical evidence without claiming the unexecuted shallow-water or spinodal results.</p>
+  <section class="grid">
+    <article class="card"><div class="claim">Claim 1 · Conservation</div><div class="status">Verified</div><p>96 1D + 48 2D clean-room plans; 36 official-head checks. Machine-scale global-sum residuals.</p></article>
+    <article class="card"><div class="claim">Claim 2 · L/U bounds</div><div class="status">Verified</div><p>Positive one-sided slacks with no clipping. A D-head counterexample prevents a false simultaneous-bound theorem.</p></article>
+    <article class="card"><div class="claim">Claim 3 · PDE empirics</div><div class="status toy">Traffic supported · Toy</div><p>Complete released traffic split and 50-step rollouts; shallow water and spinodal remain unexecuted.</p></article>
+  </section>
+  <section class="card">
+    <div class="claim">Final MAE · FluxNet-D relative to ResNet-AR</div>
+    <div class="metric"><b>0.2222×</b><span>paper v1 ratio: <strong>0.2189×</strong><br>0.003052 vs 0.013734</span></div>
+    <div class="bar"><i></i></div>
+  </section>
+  <section class="foot">
+    <article class="card"><div class="claim">Independent readback</div><p>All `(100,51,256)` fields finite. Zero drift when recomputing stored metrics. FluxNet-D wins in all seven categories. Raw NPZ SHA-256 starts <code>2ea19da97ebc</code>.</p></article>
+    <article class="card"><div class="claim">Scope & cost</div><p>One Apple MPS seed<br>2 × 100 epochs<br>1,511.6 s training<br>USD 0<br>8/8 tests</p></article>
+  </section>
+</main></body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "captured_at": "2026-07-20T12:45:02Z",
+  "file_count": 18,
+  "manifest": "hf_jobs/spinodal_attempt2b_space_parent_complete.sha256",
+  "manifest_sha256": "a10b68fb0ea8e748f74c5cb3bd984da495cd3808c6c48844fc523968aff34696",
+  "repo_id": "DineshAI/1KRpajnd6u",
+  "repo_type": "space",
+  "schema_version": 1,
+  "source": "immutable Hugging Face snapshot downloaded at the exact revision and independently hashed",
+  "source_revision": "e367aa22ce98c5926ee41ac5a74a7a2fbf78f364"
+}
